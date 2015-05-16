@@ -18,6 +18,10 @@ CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 
 DELETE_OUTPUT_DIRECTORY = True
 
+THEME = "pelican-themes/bootstrap2-dark"
+PLUGIN_PATHS = ['pelican-plugins']
+PLUGINS = ['assets']
+
 # Following items are often useful when publishing
 
 #DISQUS_SITENAME = ""

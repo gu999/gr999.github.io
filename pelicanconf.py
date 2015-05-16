@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Moi'
-SITENAME = u'Superblog!'
+SITENAME = u'Sup3rbl0g!!!'
 SITEURL = ''
 
 PATH = 'content'
@@ -31,6 +31,10 @@ SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
 STATIC_PATHS = ['images',]
+
+THEME = "pelican-themes/bootstrap2-dark"
+PLUGIN_PATHS = ['pelican-plugins']
+PLUGINS = ['assets']
 
 DEFAULT_PAGINATION = False
 
